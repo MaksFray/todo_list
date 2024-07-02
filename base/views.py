@@ -8,8 +8,6 @@ from django.urls import reverse_lazy
 from django.contrib.auth.views import LoginView
 
 from .models import Task
-# Create your views here.
-
 
 class CustomLoginView(LoginView):
     template_name = 'base/login.html'
